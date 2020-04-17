@@ -26,5 +26,7 @@ namespace RecruitmentSystemAPI.ViewModels
         [Required]
         public string Phone { get; set; }
         public bool IsActive { get; set; }
+        public decimal SatefyRating { get; set; }
+        public decimal QualityRating { get; set; }
     }
 }

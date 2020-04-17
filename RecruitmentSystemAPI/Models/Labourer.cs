@@ -21,7 +21,8 @@ namespace RecruitmentSystemAPI.Models
         public string Address { get; set; }
         public string Phone { get; set; }
         public bool IsActive { get; set; }
-
+        public decimal SatefyRating { get; set; }
+        public decimal QualityRating { get; set; }
         public virtual SystemUser User { get; set; }
         public virtual ICollection<LabourerSkill> LabourerSkills { get; set; }
     }
