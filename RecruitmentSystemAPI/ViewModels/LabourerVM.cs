@@ -26,5 +26,7 @@ namespace RecruitmentSystemAPI.ViewModels
         [Required]
         public string Phone { get; set; }
         public bool IsActive { get; set; }
+        public float SafetyRating { get; set; }
+        public float QualityRating { get; set; }
     }
 }
